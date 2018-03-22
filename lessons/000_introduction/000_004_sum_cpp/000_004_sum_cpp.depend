@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1521328979 source:c:\users\tskammer\desktop\tka\04_develop\git\cpp_summer_course_2018\lessons\000_introduction\000_004_sum_cpp\src\sum.cpp
+	"sum.h"
+
+1521328949 c:\users\tskammer\desktop\tka\04_develop\git\cpp_summer_course_2018\lessons\000_introduction\000_004_sum_cpp\include\sum.h
+	<vector>
+
+1521564658 source:c:\users\tskammer\desktop\tka\04_develop\git\cpp_summer_course_2018\lessons\000_introduction\000_004_sum_cpp\src\main.cpp
+	"sum.h"
+	"sum_variants.h"
+	<iostream>
+	<vector>
+
+1521563903 source:c:\users\tskammer\desktop\tka\04_develop\git\cpp_summer_course_2018\lessons\000_introduction\000_004_sum_cpp\src\sum_variants.cpp
+	"sum_variants.h"
+	<algorithm>
+	<numeric>
+
+1521564382 c:\users\tskammer\desktop\tka\04_develop\git\cpp_summer_course_2018\lessons\000_introduction\000_004_sum_cpp\include\sum_variants.h
+	<vector>
+
