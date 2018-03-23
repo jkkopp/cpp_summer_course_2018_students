@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="001_unit_tests_catch2" />
+		<Option pch_mode="2" />
+		<Option default_target="Test" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../../../../build/code_blocks/unit_test_catch2/001_unit_tests_catch2d" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../../../../../build/code_blocks/unit_test_catch2" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="src" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="../../../../../build/code_blocks/unit_test_catch2/001_unit_tests_catch2" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../../../../../build/code_blocks/unit_test_catch2" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="src" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Test">
+				<Option output="../../../../../build/code_blocks/unit_test_catch2/001_unit_tests_catch2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../../../../../build/code_blocks/unit_test_catch2" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="../../../external/unit_test/catch_2" />
+					<Add directory="src" />
+				</Compiler>
+				<Linker>
+					<Add library="../../../../../build/code_blocks/unit_test_catch2/lib001_unit_tests_catch2d.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="Debug;Release;Test;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++1z" />
+		</Compiler>
+		<Unit filename="src/Person.cpp">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="src/Person.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="test/test_main.cpp">
+			<Option target="Test" />
+		</Unit>
+		<Unit filename="test/test_person.cpp">
+			<Option target="Test" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
