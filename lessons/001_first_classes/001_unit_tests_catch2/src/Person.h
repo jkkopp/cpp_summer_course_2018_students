@@ -12,7 +12,7 @@ class Person {
 
   private:
     std::string first_name_;
-    std::string last_name_;
+        std::string last_name_;
 };
 
 #endif // PERSON_H

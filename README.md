@@ -30,3 +30,20 @@
 * Schreiben Sie eine neue Klasse Employee, wie in der Aufgabenstellung angegeben (sie ähnelt sehr unserer Klasse **Person** :-) )
 
 * Wenn Sie gar nicht weiter kommen und auch ihre Mitstudierenden nicht weiter wissen, wenden sich an mich per e-mail!
+
+### Lesson 2: Employee Record System
+
+* Voraussetzung Employee ist implementiert und getestet!
+
+* Wir schreiben die Database Klasse, die einen std::vector<Employee> verwaltet. Legen Sie die Klasse mit Code::Blocks an!
+./src/Database.h und ./src/Database.cpp
+
+* Ergänzen Sie ein weiters Testfile /test/test_database.cpp
+
+* Implementieren Sie die geforderten Methoden und testen Sie immer parallel!
+
+* Ergänzen Sie main.cpp in einem neuen Target Main!
+
+* Passen Sie ggf. Ihre Methoden und Tests an!
+
+* Bringen Sie alles zum Laufen!
